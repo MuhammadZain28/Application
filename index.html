@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<style>
+    body {
+        background: rgb(14, 14, 14); 
+        color: white; 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4rem;
+        list-style: circle;
+    }
+    h1 {
+        border-bottom: 5px solid #2190db;
+        padding: 0 1rem;
+        color: #c9eaff;
+        margin: 0 1rem;
+        width: auto;
+    }
+    h2 {
+        border-left: 5px solid #009dff;
+        padding: 0 1rem;
+        margin: 0 1rem;
+        color: #c9eaff;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    button:nth-child(1) {
+        background: #007acc;
+        color: white;
+        border-top: 2px solid #2190db;
+        border-left: 2px solid #2190db;
+        border-right: 2px solid #003f69;
+        border-bottom: 2px solid #003f69;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+        width: 150px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    button:nth-child(2) {
+        background: white;
+        color: #007acc;
+        border-top: 2px solid #bababa;
+        border-left: 2px solid #bababa;
+        border-right: 2px solid #7f7f7f;
+        border-bottom: 2px solid #7f7f7f;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+        width: 150px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    button:hover {
+        scale: 1.1;
+        transition: all 0.3s;
+    }
+</style>
+<body >
+    <div><h1>Admin Dashboard</h1></div>
+    <h2>Minimum Requirements</h2>
+    <ul>
+        <li>OS: Windows 10 (64-bit)</li>
+        <li>CPU: Dual-core processor, 2 GHz</li>
+        <li>RAM: 4 GB</li>
+        <li>Storage: 300 MB free space</li>
+        <li>Display: 1280×720 resolution</li>
+    </ul>
+    <h2>Recommended Requirements</h2>
+    <ul>
+        <li>OS: Windows 11</li>
+        <li>CPU: Quad-core processor, 2.5 GHz+</li>
+        <li>RAM: 8 GB or more</li>
+        <li>Storage: 500 MB free space</li>
+        <li>Display: 1920×1080 resolution or higher</li>
+    </ul>
+    <div>
+        <button>Download</button>
+        <button>Documentation</button>
+    </div>
+</body>
+</html>
